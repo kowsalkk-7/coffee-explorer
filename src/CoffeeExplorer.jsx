@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import coffeeService from "./service/coffeeService";
+import coffeeService from "./service/coffeeService.js";
 import CoffeeCard from "./components/CoffeeCard";
 import CoffeeForm from "./components/CoffeeForm";
 import Header from "./components/Header";
